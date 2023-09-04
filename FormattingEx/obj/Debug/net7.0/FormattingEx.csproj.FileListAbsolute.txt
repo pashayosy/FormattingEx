@@ -1,0 +1,15 @@
+/Users/yosypasha/Projects/FormattingEx/bin/Debug/net7.0/FormattingEx
+/Users/yosypasha/Projects/FormattingEx/bin/Debug/net7.0/FormattingEx.deps.json
+/Users/yosypasha/Projects/FormattingEx/bin/Debug/net7.0/FormattingEx.runtimeconfig.json
+/Users/yosypasha/Projects/FormattingEx/bin/Debug/net7.0/FormattingEx.dll
+/Users/yosypasha/Projects/FormattingEx/bin/Debug/net7.0/FormattingEx.pdb
+/Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/FormattingEx.csproj.AssemblyReference.cache
+/Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/FormattingEx.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/FormattingEx.AssemblyInfoInputs.cache
+/Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/FormattingEx.AssemblyInfo.cs
+/Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/FormattingEx.csproj.CoreCompileInputs.cache
+/Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/FormattingEx.dll
+/Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/refint/FormattingEx.dll
+/Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/FormattingEx.pdb
+/Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/FormattingEx.genruntimeconfig.cache
+/Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/ref/FormattingEx.dll
