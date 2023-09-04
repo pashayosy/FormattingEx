@@ -3,7 +3,7 @@ namespace FormattingEx.Models
 {
 	public class Product
 	{
-		public string Name { private set; get; }
+		public string Name { set; get; }
 		public double Price
 		{
 			set
@@ -15,21 +15,26 @@ namespace FormattingEx.Models
 		}
 		private double _price;
 
-		public DateTime WarrantyDate { set; get; }
+		public DateTime WarrantyDate 
+		{
+			private set { _warrantyDate = value; }
+			get { return _warrantyDate; }
+		}
 		private DateTime _warrantyDate;
 
 
-		public Product(string name, double price, double numOfWarrantyDays)
+		public Product(string name, double price, int numOfWarrantyDays)
 		{
 			Name = name;
 			_price = price >= 0 ? price : 100;
 			_warrantyDate = DateTime.Now;
-			_warrantyDate = _warrantyDate.AddDays(numOfWarrantyDays);
-		}
+			if (numOfWarrantyDays > 0)
+                _warrantyDate = _warrantyDate.AddDays(numOfWarrantyDays);
+        }
 
         public override string ToString()
         {
-			return $"\nName: {Name}\nPrice : {Price}\nWarranty until: {_warrantyDate.ToString()}\n";
+			return $"\nName: {Name}\nPrice : {Price:c}\nWarranty until: {_warrantyDate.ToString()}\n";
         }
 
 		/// <summary>

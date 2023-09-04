@@ -4,22 +4,24 @@ namespace FormattingEx.Models
 	public static class Menu
 	{
 		/// <summary>
-		/// Start the menu of and ask for chose from the user
+		/// Start the menu and ask for choose from the user
 		/// </summary>
 		/// <param name="name"></param>
 		public static void StartMenu(string name)
 		{
-            Product[] products = new Product[] { new Product("Pc", 200, 50), new Product("Phone", 400, 120), new Product("Mouse", 40, 30) };
+            Product[] products = new Product[] { new Product("Pc", 200, 50), new Product("Phone", -100, 100), new Product("Mouse", 40, 30) };
 			int choose;
 
             Console.WriteLine($"Hello {name}, Choose one of the product below and write the number of it!");
 			PrintProducts(products);
 
-			if (int.TryParse(Console.ReadLine(), out choose) && choose > 0 && choose < 4)
-				products[choose - 1].PrintInvoice(name);
-			else
+			while (!int.TryParse(Console.ReadLine(), out choose) || choose <= 0 || choose > 3)
+			{
 				Console.WriteLine("\t!!!Error!!!\nIncorrect number input");
-		}
+			}
+
+            products[choose - 1].PrintInvoice(name);
+        }
 
 		/// <summary>
 		/// Print the array of prdoucts with overided ToString of Product

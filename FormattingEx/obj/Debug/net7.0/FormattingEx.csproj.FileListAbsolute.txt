@@ -13,3 +13,17 @@
 /Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/FormattingEx.pdb
 /Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/FormattingEx.genruntimeconfig.cache
 /Users/yosypasha/Projects/FormattingEx/obj/Debug/net7.0/ref/FormattingEx.dll
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\bin\Debug\net7.0\FormattingEx.exe
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\bin\Debug\net7.0\FormattingEx.deps.json
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\bin\Debug\net7.0\FormattingEx.runtimeconfig.json
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\bin\Debug\net7.0\FormattingEx.dll
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\bin\Debug\net7.0\FormattingEx.pdb
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\obj\Debug\net7.0\FormattingEx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\obj\Debug\net7.0\FormattingEx.AssemblyInfoInputs.cache
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\obj\Debug\net7.0\FormattingEx.AssemblyInfo.cs
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\obj\Debug\net7.0\FormattingEx.csproj.CoreCompileInputs.cache
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\obj\Debug\net7.0\FormattingEx.dll
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\obj\Debug\net7.0\refint\FormattingEx.dll
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\obj\Debug\net7.0\FormattingEx.pdb
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\obj\Debug\net7.0\FormattingEx.genruntimeconfig.cache
+C:\Users\pasha\Source\Repos\FormattingEx\FormattingEx\obj\Debug\net7.0\ref\FormattingEx.dll
